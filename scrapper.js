@@ -90,16 +90,15 @@ function getMovie(imdbID){
                 const $href = $(el)
                 const $char = $href.attr('href').slice(-2)
 
-                const x = {
-                    name: $href.text(),
-                }      
+                const name = $href.text();
+                      
                 if($char == 'dr')
-                    directors.push(x)
+                    directors.push(name)
                 else{
                     if($char == 'wr')
-                        writers.push(x)
+                        writers.push(name)
                     else if($char == 'sm')
-                        stars.push(x)
+                        stars.push(name)
                 }
             })
             stars.pop()
