@@ -92,7 +92,6 @@ function getMovie(imdbID){
 
                 const x = {
                     name: $href.text(),
-                    link: $href.attr('href')
                 }      
                 if($char == 'dr')
                     directors.push(x)
