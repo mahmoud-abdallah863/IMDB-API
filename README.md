@@ -8,7 +8,7 @@ A simple [**Android App**](https://github.com/mahmoud-abdallah863/IMDB-Movie-Sea
 
 <br>
 
-## Tech Used
+## Packages Used
 * Express
 * Cheerio
 * Node-fetch
